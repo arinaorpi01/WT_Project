@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Lost and Found Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-building-columns logo-icon"></i>
+      <div class="logo-text">
+        <span class="brand">CAMPUS</span>
+        <span class="subbrand">LOST & FOUND HUB</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#" class="active">Home</a>
+      <a href="#">Lost Items</a>
+      <a href="#">Found Items</a>
+      <a href="#">Report Item</a>
+      <a href="#">My Reports</a>
+      <a href="#">Profile</a>
+    </nav>
+    <div class="user-profile">
+      <i class="fa-solid fa-user"></i>
+      <span>User Name</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Lost Something? Find It Here.</h1>
+      <p>Report lost or found items and help return belongings to their owners.</p>
+      
+      <div class="action-buttons">
+        <button class="btn btn-red">
+          <span class="dot red-dot"></span> Report Lost Item
+        </button>
+        <button class="btn btn-green">
+          <span class="dot green-dot"></span> Report Found Item
+        </button>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <div class="search-input-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="Search for lost or found items...">
+        </div>
+        <select class="select-box">
+          <option>Category</option>
+        </select>
+        <select class="select-box">
+          <option>Location</option>
+        </select>
+        <select class="select-box">
+          <option>Date</option>
+        </select>
+        <button class="btn-search">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Items Section -->
+  <section class="recent-items-container">
+    <h2>Recent Items</h2>
+    <div class="cards-grid">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-img-placeholder">
+          <i class="fa-solid fa-mobile-screen-button item-icon"></i>
+        </div>
+        <div class="card-content">
+          <h3><i class="fa-solid fa-mobile-screen"></i> iPhone</h3>
+          <p><strong>Location:</strong> Library</p>
+          <p><strong>Date:</strong> 17 Aug 2026</p>
+          <button class="btn-card">View Details</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-img-placeholder">
+          <i class="fa-solid fa-bag-shopping item-icon"></i>
+        </div>
+        <div class="card-content">
+          <h3>Found Item</h3>
+          <p><strong>Location:</strong> Cafeteria</p>
+          <p><strong>Date:</strong> 16 Aug 2026</p>
+          <button class="btn-card">View Details</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-img-placeholder">
+          <i class="fa-solid fa-bottle-water item-icon"></i>
+        </div>
+        <div class="card-content">
+          <h3>Lost Item</h3>
+          <p><strong>Location:</strong> DN0110</p>
+          <p><strong>Date:</strong> 17 Aug 2026</p>
+          <button class="btn-card">View Details</button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <div class="card-img-placeholder">
+          <i class="fa-solid fa-key item-icon"></i>
+        </div>
+        <div class="card-content">
+          <h3>Found Item</h3>
+          <p><strong>Location:</strong> Student Lounge</p>
+          <p><strong>Date:</strong> 16 Aug 2026</p>
+          <button class="btn-card">View Details</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
