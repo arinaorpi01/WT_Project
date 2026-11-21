@@ -55,19 +55,24 @@
           <i class="fa-solid fa-magnifying-glass search-icon"></i>
           <input type="text" placeholder="Search for lost or found items...">
         </div>
-        <select class="select-box">
-          <option>Category</option>
+        <select class="select-box" id="categorySelect">
+          <option value="">Category</option>
+          <option value="Key">Key</option>
+          <option value="Bag">Bag</option>
+          <option value="Water Bottle">Water Bottle</option>
+          <option value="Phone">Phone</option>
         </select>
-        <select class="select-box">
-          <option>Location</option>
+        <select class="select-box" id="locationSelect">
+          <option value="">Location</option>
+          <option value="D Building">D Building</option>
+          <option value="Cafeteria">Cafeteria</option>
+          <option value="Library">Library</option>
+          <option value="Student Lounge">Student Lounge</option>
         </select>
-        <select class="select-box">
-          <option>Date</option>
-        </select>
+        <input type="date" class="select-box date-box" id="dateInput" aria-label="Date">
         <button class="btn-search">Search</button>
       </div>
-            <span class="error" id="searchError"></span>
-
+      <span class="error" id="searchError"></span>
     </div>
   </section>
 
@@ -129,7 +134,9 @@
       </div>
 
     </div>
+    <span class="error" id="detailError"></span>
   </section>
+
   <script src="script.js"></script>
 
 </body>
